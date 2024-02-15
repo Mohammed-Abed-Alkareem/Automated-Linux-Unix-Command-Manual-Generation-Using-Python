@@ -70,3 +70,15 @@ A static method to display informational or error messages in popup windows. It 
 Starts the tkinter event loop, which keeps the application running and responsive to user actions.
 #### •	main()
 This standalone function initializes the tkinter root, creates an instance of ManualViewerApp, and starts the application's main loop.
+
+
+# Screenshots
+- [Project GUI](/verilog_files/src/Memory/Instruction%20Memory/PC/pcModule.v)
+
+The GUI for the project initially only generating the manuals or the verification can be done.
+If the input file that contains the commands not exists an error message will appear when clicking on any button 
+For the verification a message that contains the verified manuals will appear then each manual that has error will then appear clarifying the error
+
+For the generation it will generate the manuals in xml format for all the commands in the input file
+
+- ["cat" manual](/verilog_files/src/Memory/Instruction%20Memory/PC/pcModule.v)
