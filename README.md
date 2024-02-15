@@ -73,7 +73,7 @@ This standalone function initializes the tkinter root, creates an instance of Ma
 
 
 # Screenshots
-- [Project GUI](/verilog_files/src/Memory/Instruction%20Memory/PC/pcModule.v)
+![Project GUI](/screenshots/Screenshot%20from%202024-01-25%2009-37-44.png)
 
 The GUI for the project initially only generating the manuals or the verification can be done.
 If the input file that contains the commands not exists an error message will appear when clicking on any button 
@@ -81,4 +81,13 @@ For the verification a message that contains the verified manuals will appear th
 
 For the generation it will generate the manuals in xml format for all the commands in the input file
 
-- ["cat" manual](/verilog_files/src/Memory/Instruction%20Memory/PC/pcModule.v)
+!["cat" manual](/screenshots/Screenshot%20from%202024-01-25%2009-40-58.png)
+
+#### After verifying successful for all the commands, the search functionality will be available 
+- First by choosing a command from the drop-down list 
+- Then choose the option for searching via the radio buttons 
+- The required information will be extracted from the xml file for the chosen command 
+- And it will appear in the text box in a formatted way
+
+  
+
